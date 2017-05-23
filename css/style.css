@@ -1,0 +1,339 @@
+/*Heading Style*/
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.modal-content {
+	border-radius: 0px;
+	background: #8E44AD;
+}
+
+.form-control {
+	border-radius: 0px;
+	padding: 20px;
+	font-size: 17px;
+}
+
+.modal-body {
+	padding: 40px 30px;
+}
+
+button.btn-run {
+	/*display: inline-block;*/
+	margin: 10px 0;
+	padding: 5px 15px;
+	border: 2px;
+	border-style: solid;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float: right;
+	margin-top: -43px;
+	margin-left: 20px;
+	transition: All .5s ease-in-out;
+	-webkit-transition: All .5s ease-in-out;
+	-moz-transition: All .5s ease-in-out;
+	-o-transition: All .5s ease-in-out;
+}
+
+button.btn-run-inline {
+	display: inline-block;
+	float: none;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+button:hover.btn-run {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/* Column4
+-----------------------------------*/
+
+.Column4 .pricing-col {
+	width: 25%;
+}
+
+.Column3 .pricing-col {
+	width: 33.3%;
+}
+
+.Column2 .pricing-col {
+	width: 50%;
+}
+
+.Column1 .pricing-col {
+	width: 100%;
+}
+
+.pricing-col {
+	font-size: 16px;
+	font-weight: 300;
+	position: relative;
+}
+
+.pricing-col {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.pricing-col ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+.pricing-col ul li {
+	list-style: none;
+}
+
+.pricing-col ul li>ul {
+	margin: 0;
+}
+
+
+/* Column Title
+-----------------------------------*/
+
+.pricing-col ul li.title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 40px;
+	letter-spacing: 1px;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+}
+
+.pricing-col ul li.pricing-details {
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 -5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+.pricing-col ul li.pricing-details h3 {
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.pricing-col ul li.pricing-details sup {
+	font-size: 30px;
+}
+
+.pricing-col ul li.pricing-details sub {
+	position: relative;
+	font-size: 14px;
+	font-weight: normal;
+	bottom: 10px;
+}
+
+.pricing-col ul li.pricing-details small {
+	display: block;
+	text-transform: uppercase;
+}
+
+.pricing-col a.signup-btn {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px 15px;
+	border: 2px;
+	border-style: solid;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	transition: All .5s ease-in-out;
+	-webkit-transition: All .5s ease-in-out;
+	-moz-transition: All .5s ease-in-out;
+	-o-transition: All .5s ease-in-out;
+}
+
+.pricing-col a:hover.signup-btn {
+	text-decoration: none;
+}
+
+.pricing-col li ul {
+	padding: 15px;
+	border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+}
+
+.pricing-col li li {
+	margin: 0;
+	padding: 10px 0;
+	border-bottom: 1px dotted rgba(0, 0, 0, .1);
+}
+
+.pricing-col li li:last-child {
+	border-bottom: none;
+}
+
+.featured-red,
+.pricing-col {
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+
+/*.featured-red:hover,
+.pricing-col:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	z-index: 1;
+}*/
+
+
+/*--------------------------------------------------------------
+-----------------FEATURED COLOR-----------------------------------
+---------------------------------------------------------------*/
+
+
+/*--WISTERIA--*/
+
+.featured-whisteria ul li.title,
+.featured-whisteria li ul {
+	background: #8E44AD !important;
+	color: #fff;
+}
+
+.featured-whisteria ul li.pricing-details {
+	background: #9B59B6 !important;
+	color: #fff !important;
+}
+
+.featured-whisteria ul li.pricing-details small {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.featured-whisteria a.signup-btn {
+	color: #fff;
+	border-color: #fff !important
+}
+
+.featured-whisteria a:hover.signup-btn {
+	background: #fff !important;
+	color: #9B59B6 !important
+}
+
+button.btn-run {
+	color: #fff;
+	border-color: #fff !important
+}
+
+button:hover.btn-run {
+	background: #fff !important;
+	color: #9B59B6 !important
+}
+
+
+/*--------------------------------------------------------------
+-----------------COLOR STYLE-----------------------------------
+---------------------------------------------------------------*/
+
+
+/*--PUMPKIN--*/
+
+.Pumkin .pricing-col ul li.title,
+.Pumkin .pricing-col li ul {
+	background: #D35400;
+	color: #fff;
+}
+
+.Pumkin .pricing-col ul li.pricing-details {
+	background: #E67E22;
+	color: #fff;
+}
+
+.Pumkin .pricing-col ul li.pricing-details small {
+	color: rgba(255, 255, 255, .5);
+}
+
+.Pumkin .pricing-col a.signup-btn {
+	color: #fff;
+	border-color: #fff
+}
+
+.Pumkin .pricing-col a:hover.signup-btn {
+	background: #fff;
+	color: #E67E22
+}
+
+button.btn-run {
+	color: #fff;
+	border-color: #fff
+}
+
+button:hover.btn-run {
+	background: #fff;
+	color: #E67E22
+}
+
+
+/*==============================================================
+
+  ================ RESPONSIVE ==================================
+
+  ==============================================================*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+	.Column4 .pricing-col {
+		width: 25%
+	}
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.Column4 .pricing-col {
+		width: 50%
+	}
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+	.Column4 .pricing-col {
+		width: 50%
+	}
+	.Column3 .pricing-col {
+		width: 100%
+	}
+	.Column2 .pricing-col {
+		width: 50%
+	}
+}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+	.Column4 .pricing-col {
+		width: 100%
+	}
+	.Column2 .pricing-col {
+		width: 100%
+	}
+}
